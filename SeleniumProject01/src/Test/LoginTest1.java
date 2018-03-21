@@ -33,13 +33,13 @@ import utility.Util;
 
 public class LoginTest1 {
 
-	public static WebDriver driver;
-	public static WebDriverWait waitForObject;
-	public static WebDriverWait wiatForObj;
-	public static WebElement testObj;
-	public static String currDir,userName,passWord;
-	public static String dataArray[][];
-	public static JavascriptExecutor jse;	
+	public WebDriver driver;
+	public WebDriverWait waitForObject;
+	public WebDriverWait wiatForObj;
+	public WebElement testObj;
+	public String currDir,userName,passWord;
+	public String dataArray[][];
+	public JavascriptExecutor jse;	
 				
 	@BeforeTest
 	public void setBrowserConfig() {		
